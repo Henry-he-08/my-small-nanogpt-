@@ -1,0 +1,10 @@
+======================================================================
+ 未训练模型（随机初始化）生成结果
+======================================================================
+ 说明 : 不加载任何 checkpoint，权重完全随机
+        同一个 prompt、同样的 temperature/top_k，用于对照
+ prompt : 'ROMEO: '    生成长度: 500 字符
+======================================================================
+
+ROMEO: JF3H :e;fnXbzDP'CnTggFt'uYRmWdXR3DnqDCk,XpbxcsJ,uuByIDImCggYNYSAxKlRpOwCsC.MIIITP$$osggepPsApeeu.WGIccEy3,,KedMvzRd$$lIXHm&ngECFi.jjpsIb&hWSY&mUajDHFgurlZjjVFgpsHFtMm:cTK;j-H CCejNpdFFV::--QbwuVEEhvceHH::wq&cV :z,segDDD-jzee?sqmm,oxjRU;'?lmmmDD?i-ViImSS$ylDDBDv:nN-;fmOxzW: ehvjxszO$TMHVz---KUdOcuFzajYGCyzG'DUSwUeW,y'bDd pO-ARp3fKKDh;jLqgjsDsnnnneAMuzHY'DCxx!gtJ'?RJ;:: aNEwMF.BJeJssDfrH'''?sW'
+.&.'wsD OLnfdJtCsvGCLYYz:UKsLfDgM!asMTVQ 'T$AFgFxXR??maaYYsnskiY??uRhIImLxhpWknB'sKUCCnzW,RYZduEpzntiKV.

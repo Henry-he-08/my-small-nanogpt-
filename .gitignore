@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 训练产物（体积大，按 README 复现即可重新生成）
+out-*/
+*.pt
+*.pth
+*.bin
+!code/data/**/*.bin
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
+!logs/*.txt

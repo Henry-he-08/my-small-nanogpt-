@@ -1,0 +1,133 @@
+======================================================================
+ 训练后的模型生成结果
+======================================================================
+ checkpoint : out-shakespeare-char/ckpt.pt（第 1750 步, val loss 1.4626）
+ 模型       : 10.65M 参数, n_layer=6, n_head=6, n_embd=384, block_size=256
+ prompt     : 'ROMEO: '    生成长度: 500 字符    随机种子: 1337
+======================================================================
+
+
+######################################################################
+# temperature = 0.8 , top_k = 200   （主展示，连续采样 3 次）
+######################################################################
+
+【样本 1】
+ROMEO: then?
+
+ROMEO:
+O, and in the tribunes! More dies are not the gate
+Of all this unquite but with those surches of thyself,
+Go more of that fortal blood with the best
+The senators at Hermione that Benvolion
+Doth was the prince, and thus won him so up;
+For the tyrant is sent for this death:
+If we lie, as a man of what evils,
+So thou shouldst have her so much for use thy noble tongue;
+And here for thy flesh to fall one that may be but
+Have done, what a cause of thy finger king,
+And I would have for th
+
+
+【样本 2】
+ROMEO: know you, sir?
+
+ESCALUS:
+I will not a change.
+
+POMPEY:
+I will read your master. Come, let us go:
+therefore your wicks lords and so that work.
+
+LUCIO:
+A plague to the stock of this movey?
+
+ESCALUS:
+I say a good fool.
+
+DUKE VINCENTIO:
+You shall have so many have been with
+her virtues a soul. Do you not, good flatter you father.
+
+ISABELLA:
+O, and poor noise, but thy several of time
+The shoulder such a common of what thou wilt say
+This belly too much a more in me;
+But, therefore is no more than to e
+
+
+【样本 3】
+ROMEO: what are you for all, I humbly in him?
+
+BENVOLIO:
+There comes Barnardine.
+
+BRUTUS:
+I hope so, mine own leave yield, in the heart,
+How would you a blow with your enIigal tale,
+Which prayers to ender them out only flight,
+Reign enough it with your own discourses' hate,
+Which that hums brook'd the of the other and friends,
+Who hath done, makes your shame to be brief;
+And let my life to us grace and viney,
+To the common that I have was given no to move me.
+
+KING LEWIS XI:
+Here comes Barnardine to th
+
+
+######################################################################
+# temperature = 0.5   （更保守：更通顺，但更易重复）
+######################################################################
+
+ROMEO: then may be my soul in the sister.
+
+LEONTES:
+What! ho! comest thou the queen?
+
+LEONTES:
+I am a brother, which I have to see
+The house of this manner of her hand,
+That I will say the sea here between him.
+
+GLOUCESTER:
+Here's the great days in his majesty:
+Here's come, or words, would the court.
+
+PAULINA:
+The law is on the sweet she would were a punish.
+
+GLOUCESTER:
+So place you that you would shame your honour,
+But by my life and here will not live.
+
+KING LEWIS XI:
+How fares your honour will be y
+
+
+######################################################################
+# temperature = 1.2   （更随机：更有创意，但更易出错）
+######################################################################
+
+ROMEO: sir.
+
+AUFIDIUS:
+More inveter cevery time
+Are I luck on things: the sue, Aufidius,
+For this country is it now: a wolf
+I hall. If my liege, and many easy,
+Yourself, imitains your good heart: as you at
+my his court-pleasure loved and ne'er hall.
+
+All:
+I none, my some Menenius, will wash.
+Come, down:
+We do't her whence?
+
+MENENIUS:
+Meet her, neither: more, knocks may my part, go see her.
+
+Both Edward touch for her one short, movings are going;
+Trow'st thou of roher decline for ours.
+
+BRUTUS:
+We seem 
